@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./panier2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="topbar">
+            <div class="logo"><img src="logounseen.jpg" alt="logo" width="150px" height="150px"></div>
+                <div class="NameSlogan">
+                    <h1>HIDDEN GEMS THAILAND</h1>
+                    <h3>We will show you the secret of paradise.</h3>
+                </div>
+                <nav>
+                    <li class="Home"><a href="index.html">Home</a></li>
+                    <li class="Island"><a href="Island2.html">Island</a>
+                        <ul>
+                            <li><a href="KohPhiPhi.html">Koh Phi Phi</a></li>
+                            <li><a href="KohLanta.html">Koh Lanta</a></li>
+                            <li><a href="#">Koh Phangan</a></li>
+                            <li><a href="#">Koh Tao</a></li>
+                            <li><a href="#">Phuket</a></li>
+                        </ul>
+                    </li>
+                    <li class="Temples"><a href="Temples.html">Temples</a>
+                        <ul>
+                            <li><a href="WatRongKhun.html">Chiangrai</a></li>
+                            <li><a href="#">Maehongson</a></li>
+                            <li><a href="#">Chiagmai</a></li>
+                            <li><a href="#">Lampang</a></li>
+                            <li><a href="#">Sukhothai</a></li>
+                        </ul>
+                    </li>
+                        <li class="CityCenter"><a href="#">City Center</a>
+                            <ul>
+                                <li><a href="Songkran.html">Bangkok</a></li>
+                                <li><a href="#">Ayuthaya</a></li>
+                                <li><a href="#">Samut-Songkram</a></li>
+                                <li><a href="#">Kanchanaburi</a></li>
+                                <li><a href="#">Samut-Prakarn</a></li>
+                            </ul>
+                        </li>
+                        <li class="ForestAndWaterfall"><a href="#">Forest and waterfall</a>
+                            <ul>
+                                <li><a href="#">Kanchanaburi</a></li>
+                                <li><a href="#">Kalasin</a></li>
+                                <li><a href="#">Phukradeung</a></li>
+                            </ul>
+                        </li>
+                </nav>
+        </div>
+        <div class="paragraph">
+            <h1>TRIP</h1>
+
+                <div class="Article">
+                    <h3>Choose your package :</h3>
+                    <div class="TypeArticle"> 
+                    <input type="radio" id="Billets" name="Article" value="Billets">Package1
+                    <input type="radio" id="Accommodation" name="Article" value="Accommodation">Package2
+                    <input type="radio" id="Excursion" name="Article" value="Excursion">Package3
+                </div>
+            
+            <div class="Passenger">
+                <h3>Pack(s):</h3>
+                <div class="Adult">
+                    <span name="price-name">Adult (+9yo)</span>
+                    <input min="0" onchange="calcTotal()" placeholder="Number(s) of Passenger(s)" data-translation-message="Vous devez saisir un nombre entier pour Num." data-translation="integer" data-validation="true" id="num" class="form-control form-control input-num num-2746" name="num" type="number">
+                    <span name="price-name">Person(s)</span>
+                </div>
+        
+                <div class="Children">
+                    <span name="price-name">Children (0-9yo)</span>
+                    <input min="0" onchange="calcTotal()" placeholder="Number(s) of Passenger(s)" data-translation-message="Vous devez saisir un nombre entier pour Num." data-translation="integer" data-validation="true" id="num" class="form-control form-control input-num num-2746" name="num" type="number">
+                    <span name="price-name">Person(s)</span>
+                </div>
+            </div>
+            <div class="DateAndTime">
+                <h3>Date  :</h3>
+                <div class="BookingDate">
+                    <label for="Date">dd/mm/yyyy</label>
+                    <input type="date" id="Date" name="Date">
+                </div>
+            </div>
+            <div class="Confirm">
+                <button style="background-color:rgb(241, 186, 2); color:rgb(162, 0, 255);"><b>Book</b></button>
+            </div>
+        </div>
+    </div>
+        <div class="AboutUs">
+            <img src="logounseen.jpg" alt="logo" width="170px" height="170px">
+            <h3><a href="BookKohphiphi.html">Our Package</a></h3>
+            <h3><a href="AboutUs.html">About us</a></h3>
+
+        </div>
+    </div>
+</body>
+</html>
